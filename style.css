@@ -29,3 +29,10 @@ img {
     max-width: 90%;
     height: auto;
 }
+.name {
+    font-size: 36px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
