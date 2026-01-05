@@ -18,3 +18,14 @@ h1 {
 .whatsapp-btn:hover {
     background-color: #1ebe5d;
 }
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    line-height: 1.6;
+}
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 90%;
+    height: auto;
+}
