@@ -69,3 +69,19 @@ img {
 .social a:hower {
     color:#25D366;
 }
+img {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+h1 {
+    color: #1e90ff;
+    text-align: center;
+}
+.social a {
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    color: #333;
+}
