@@ -108,3 +108,60 @@ ul li {
     width: 200px;
     border-radius: 6px;
 }
+.skills {
+  background: #fff;
+  max-width: 380px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+.skills h2 {
+  text-align: center;
+  color: #1e90ff;
+  margin-bottom: 15px;
+}
+
+.skill {
+  margin-bottom: 12px;
+}
+
+.skill span {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.progress {
+  background: #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 10px;
+  margin-top: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Skill levels */
+.progress-bar.html {
+  width: 80%;
+  background: #e34c26;
+}
+
+.progress-bar.css {
+  width: 65%;
+  background: #264de4;
+}
+
+.progress-bar.github {
+  width: 50%;
+  background: #333;
+}
+
+.progress-bar.web {
+  width: 60%;
+  background: #1e90ff;
+}
