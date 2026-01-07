@@ -92,3 +92,19 @@ h1 {
         text-align: center;
     }
 }
+h2 {
+    text-align: center;
+    color: #333;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+ul li {
+    background: #eee;
+    margin: 8px auto;
+    padding: 8px;
+    width: 200px;
+    border-radius: 6px;
+}
