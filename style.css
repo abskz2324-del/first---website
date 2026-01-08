@@ -96,3 +96,15 @@ body {
   padding: 10px;
   margin-bottom: 12px;
 }
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 420px;   /* 👈 mobile-style width */
+  padding: 15px;
+}
