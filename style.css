@@ -198,3 +198,29 @@ ul li {
 .contact-card button:hover {
   background-color: #1ebc5a;
 }
+/* FORCE CONTACT FORM FIX */
+.contact-card form {
+  display: block !important;
+}
+
+.contact-card input,
+.contact-card textarea,
+.contact-card button {
+  display: block !important;
+  width: 100% !important;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.contact-card textarea {
+  min-height: 120px;
+}
+
+.contact-card button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
