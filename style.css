@@ -224,3 +224,32 @@ ul li {
   border-radius: 25px;
   cursor: pointer;
 }
+/* CONTACT SECTION FINAL FIX */
+.contact-card {
+  height: auto !important;
+  overflow: visible !important;
+}
+
+.contact-card form {
+  display: block !important;
+}
+
+.contact-card input,
+.contact-card textarea,
+.contact-card button {
+  width: 100% !important;
+  display: block !important;
+  margin-bottom: 15px;
+}
+
+.contact-card textarea {
+  min-height: 120px;
+}
+
+.contact-card button {
+  background: #25D366;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+}
