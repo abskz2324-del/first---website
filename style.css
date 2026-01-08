@@ -108,3 +108,22 @@ body {
   max-width: 420px;   /* 👈 mobile-style width */
   padding: 15px;
 }
+/* RESET */
+* {
+  box-sizing: border-box;
+}
+
+/* PAGE CENTER + SIZE CONTROL */
+.page {
+  width: 100%;
+  max-width: 420px;      /* 👈 is se page slim ho jaye ga */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* BODY CENTER FIX */
+body {
+  margin: 0;
+  padding: 0;
+  background: #f2f2f2;  /* optional */
+}
