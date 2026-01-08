@@ -1,284 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
 body {
-    background-color: red;
-    text-align: center;
-    font-family: Arial;
+  background: #f2f2f2;
 }
-h1 {
-    color: blue;
-}
-.whatsapp-btn{
-    background-color: #25D366;
-    color: white;
-    border: none;
-    padding: 12px 20px;
-    font-size: 16px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-.whatsapp-btn:hover {
-    background-color: #1ebe5d;
-}
-p {
-    max-width: 600px;
-    margin: 20px auto;
-    line-height: 1.6;
-}
-img {
-    display: block;
-    margin: 20px auto;
-    max-width: 90%;
-    height: auto;
-}
-.name {
-    font-size: 36px;
-    font-weight: bold;
-    letter-spacing: 3px;
-    margin-top: 20px;
-    text-transform: uppercase;
-}
-.profile-card img {
-    width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 10px;
-    border: 3px solid #ddd;
-}
-@media (max-width:600px;) {
-    .profile-card {
-        width: 90%;
-        padding: 20px;
-     }
-     .profile-cardimg {
-        width: 140px;
-        height: 140px;
-    }
-    .whatsapp-btn {
-        width: 100%;
-        font-size: 16px;
-    }
+
+/* Navigation */
+.social {
+  background: #222;
+  padding: 15px;
+  text-align: center;
 }
 
 .social a {
-    text-decoration: none;
-    margin: 0 10px;
-    font-weight: bold;
-    color: #333;
-}
-
-.social a:hover {
-    color:#25D366;
-}
-img {
-    border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-}
-h1 {
-    color: #1e90ff;
-    text-align: center;
-}
-@media (max-width: 600px) {
-    img {
-        width: 140px;
-        height: 140px;
-    }
-    h1 {
-        font-size: 22px;
-    }
-    p {
-        font-size: 15px;
-        text-align: center;
-    }
-}
-h2 {
-    text-align: center;
-    color: #333;
-}
-ul {
-    list-style: none;
-    padding: 0;
-    text-align: center;
-}
-ul li {
-    background: #eee;
-    margin: 8px auto;
-    padding: 8px;
-    width: 200px;
-    border-radius: 6px;
-}
-.skills {
-  background: #fff;
-  max-width: 380px;
-  margin: 20px auto;
-  padding: 20px;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-}
-
-.skills h2 {
-  text-align: center;
-  color: #1e90ff;
-  margin-bottom: 15px;
-}
-
-.skill {
-  margin-bottom: 12px;
-}
-
-.skill span {
-  font-size: 14px;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
   font-weight: bold;
 }
 
-.progress {
-  background: #eee;
-  border-radius: 10px;
-  overflow: hidden;
-  height: 10px;
-  margin-top: 5px;
-}
-
-.progress-bar {
-  height: 100%;
-  border-radius: 10px;
-}
-
-/* Skill levels */
-.progress-bar.html {
-  width: 80%;
-  background: #e34c26;
-}
-
-.progress-bar.css {
-  width: 65%;
-  background: #264de4;
-}
-
-.progress-bar.github {
-  width: 50%;
-  background: #333;
-}
-
-.progress-bar.web {
-  width: 60%;
-  background: #1e90ff;
-}
-.contact-card form {
+/* Profile Card */
+.container {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
+  justify-content: center;
+  margin-top: 30px;
 }
 
-.contact-card input,
-.contact-card textarea {
+.profile-card {
+  background: white;
+  width: 350px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.profile-card img {
+  border-radius: 50%;
+  margin: 10px 0;
+}
+
+/* Contact Form */
+.contact {
+  background: white;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.contact h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact input,
+.contact textarea {
   width: 100%;
   padding: 10px;
-  font-size: 16px;
+  margin-bottom: 12px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
 
-.contact-card textarea {
-  resize: vertical;
-  min-height: 100px;
-}
-
-.contact-card button {
-  padding: 12px;
-  background-color: #25D366;
+.contact button {
+  width: 100%;
+  padding: 10px;
+  background: green;
   color: white;
   border: none;
-  border-radius: 25px;
+  border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
 }
 
-.contact-card button:hover {
-  background-color: #1ebc5a;
-}
-/* FORCE CONTACT FORM FIX */
-.contact-card form {
-  display: block !important;
-}
-
-.contact-card input,
-.contact-card textarea,
-.contact-card button {
-  display: block !important;
-  width: 100% !important;
-  margin-bottom: 15px;
-  box-sizing: border-box;
-}
-
-.contact-card textarea {
-  min-height: 120px;
-}
-
-.contact-card button {
-  background: #25D366;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 25px;
-  cursor: pointer;
-}
-/* CONTACT SECTION FINAL FIX */
-.contact-card {
-  height: auto !important;
-  overflow: visible !important;
-}
-
-.contact-card form {
-  display: block !important;
-}
-
-.contact-card input,
-.contact-card textarea,
-.contact-card button {
-  width: 100% !important;
-  display: block !important;
-  margin-bottom: 15px;
-}
-
-.contact-card textarea {
-  min-height: 120px;
-}
-
-.contact-card button {
-  background: #25D366;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 25px;
-}
-/* CONTACT FORM FORCE FIX */
-.contact-card {
-  height: auto !important;
-  overflow: visible !important;
-}
-
-.contact-card form {
-  display: block !important;
-}
-
-.contact-card input,
-.contact-card textarea,
-.contact-card button {
-  width: 100% !important;
-  display: block !important;
-  margin-bottom: 15px;
-}
-
-.contact-card textarea {
-  min-height: 120px;
-}
-
-.contact-card button {
-  background: #25D366;
-  color: white;
-  border: none;
-  padding: 12px;
-  border-radius: 25px;
+.contact button:hover {
+  background: darkgreen;
 }
