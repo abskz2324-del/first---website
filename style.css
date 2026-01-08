@@ -82,3 +82,17 @@ body {
 .contact button:hover {
   background: darkgreen;
 }
+.contact {
+  background: white;
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+}
