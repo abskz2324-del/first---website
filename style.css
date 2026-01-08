@@ -165,3 +165,36 @@ ul li {
   width: 60%;
   background: #1e90ff;
 }
+.contact-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-card textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.contact-card button {
+  padding: 12px;
+  background-color: #25D366;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-card button:hover {
+  background-color: #1ebc5a;
+}
