@@ -160,3 +160,32 @@ body {
     margin-top: 0;
   }
 }
+/* ===== Laptop / Desktop Layout ===== */
+@media (min-width: 992px) {
+
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .container {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+
+  .about,
+  .skills,
+  .contact {
+    width: 33%;
+  }
+
+  .skills ul {
+    text-align: left;
+  }
+
+  .contact input,
+  .contact textarea {
+    width: 100%;
+  }
+}
