@@ -276,7 +276,33 @@ body {
   width: 220px;
   height: 220px;
   object-fit: cover;
-  border-radius: 50%;   /* GOL */
+  border-radi/* ===== FINAL ONE COLUMN CENTER LAYOUT ===== */
+
+.profile-card {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.profile-card img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 30px auto;
+}
+
+.skills,
+.contact {
+  text-align: center;
+  margin: 40px auto;
+}
+
+.skills ul {
+  padding: 0;
+  list-style-position: inside;
+}us: 50%;   /* GOL */
   display: block;
   margin: 30px auto;
 }
