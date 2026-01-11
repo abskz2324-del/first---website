@@ -31,6 +31,7 @@ body {
   font-weight: bold;
 }
 
+
 /* =====================
    MAIN CONTAINER
 ===================== */
@@ -320,4 +321,7 @@ body {
 .profile-card h2 {
   margin-left: auto;
   margin-right: auto;
+}
+ul, li, form, input, textarea {
+  text-align: center;
 }
