@@ -361,3 +361,27 @@ header p {
   display: block;
   margin: 15px auto;
 }
+.about-section {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;        /* center container */
+  text-align: center;    /* center text */
+  padding: 20px;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-section p {
+  text-align: center;
+}
+
+.profile-pic {
+  display: block;
+  margin: 20px auto;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+}
