@@ -6,7 +6,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container {
+  text-align: center;
+}
 body {
   font-family: Arial, sans-serif;
   background: #f4f4f4;
@@ -305,4 +307,17 @@ body {
 }us: 50%;   /* GOL */
   display: block;
   margin: 30px auto;
+}
+/* ===== FORCE TEXT CENTER ===== */
+
+.profile-card,
+.profile-card * {
+  text-align: center !important;
+}
+
+.profile-card p,
+.profile-card h1,
+.profile-card h2 {
+  margin-left: auto;
+  margin-right: auto;
 }
