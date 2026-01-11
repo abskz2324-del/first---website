@@ -1,260 +1,149 @@
+/* =====================
+   BASIC RESET
+===================== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial, sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-srif;
-  background: #f2f2f2;
-}
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
 }
 
-/* Navigation */
+/* =====================
+   NAVBAR
+===================== */
 .social {
-  background: #222;
-  padding: 15px;
+  background: #666;
   text-align: center;
+  padding: 12px;
 }
 
 .social a {
   color: white;
-  margin: 0 15px;
   text-decoration: none;
+  margin: 0 15px;
   font-weight: bold;
 }
 
-/* Profile Card */
+/* =====================
+   MAIN CONTAINER
+===================== */
 .container {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
 }
 
+/* =====================
+   PROFILE CARD
+===================== */
 .profile-card {
-  background: white;
-  width: 350px;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
   text-align: center;
 }
 
 .profile-card img {
-  border-radius: 50%;
-  margin: 10px 0;
-}
-
-/* Contact Form */
-.contact {
-  background: white;
-  width: 350px;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.contact h2 {
-  text-align: center;
-  margin-bottom: 15px;
-}
-
-.contact input,
-.contact textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.contact button {
-  width: 100%;
-  padding: 10px;
-  background: green;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.contact button:hover {
-  background: darkgreen;
-}
-.contact {
-  background: white;
-  width: 350px;
-  margin: 30px auto;
-  padding: 20px;
-  border-radius: 10px;
-}
-
-.contact input,
-.contact textarea {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-}
-body {
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  width: 100%;
-  max-width: 420px;   /* 👈 mobile-style width */
-  padding: 15px;
-}
-/* RESET */
-* {
-  box-sizing: border-box;
-}
-
-/* PAGE CENTER + SIZE CONTROL */
-.page {
-  width: 100%;
-  max-width: 420px;      /* 👈 is se page slim ho jaye ga */
-  margin: 0 auto;
-  padding: 20px;
-}
-
-/* BODY CENTER FIX */
-body {
-  margin: 0;
-  padding: 0;
-  background: #f2f2f2;  /* optional */
-}
-ul {
-  padding-left: 0;
-  list-style-position: inside;
-  text-align: center;
-}
-h1, h2, p {
-  text-align: center;
-}
-img {
-  display: block;
-  margin: 15px auto;
-  max-width: 100%;
-}
-form {
-  width: 100%;
-}
-
-input, textarea, button {
-  width: 100%;
-  margin: 8px 0;
-  padding: 10px;
-}
-.container {
-  width: 90%;
-  max-width: 900px;
-  margin: 40px auto;
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 1100px;
-    padding: 40px;
-  }
-
-  .profile {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-  }
-
-  .profile img {
-    width: 300px;
-    height: auto;
-  }
-
-  .profile-text {
-    text-align: left;
-  }
-}
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  width: 100%;
-  font-family: Arial, sans-serif;
-}
-
-/* MAIN CONTAINER */
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  padding: 20px;
-}
-
-/* PROFILE SECTION */
-.profile {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-/* DESKTOP MODE */
-@media (min-width: 768px) {
-  .profile {
-    flex-direction: row;
-    text-align: left;
-    justify-content: center;
-    gap: 40px;
-  }
-
-  .profile img {
-    width: 300px;
-  }
-}
-@media (main-width:768px) {
-  .main {
-    display: flex;
-    gap: 20px;
-  }
-  .left,
-  .right {
-    width: 50%;
-  }
-}
-/* Default (Mobile) */
-.profile-card {
-  display: block;
-  text-align: center;
-}
-
-.profile-card img {
-  width: 220px;
+  width: 230px;
   border-radius: 50%;
   margin-top: 20px;
 }
 
-/* Laptop / Desktop */
+/* =====================
+   TEXT
+===================== */
+.name {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.profile-card p {
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+/* =====================
+   SKILLS
+===================== */
+.skills {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.skills li {
+  margin: 8px 0;
+  font-size: 18px;
+}
+
+/* =====================
+   CONTACT FORM
+===================== */
+.contact {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.contact input,
+.contact textarea {
+  width: 90%;
+  max-width: 500px;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #999;
+  border-radius: 5px;
+}
+
+.contact button {
+  padding: 12px 30px;
+  border: none;
+  background: #333;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* =====================
+   SOCIAL LINKS
+===================== */
+.footer {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: blue;
+}
+
+/* =====================
+   LAPTOP / DESKTOP
+===================== */
 @media screen and (min-width: 992px) {
   .profile-card {
     display: flex;
-    text-align: left;
     align-items: center;
     justify-content: space-between;
+    text-align: left;
     gap: 40px;
   }
 
@@ -265,5 +154,9 @@ body {
   .right {
     width: 40%;
     text-align: center;
+  }
+
+  .profile-card img {
+    margin-top: 0;
   }
 }
