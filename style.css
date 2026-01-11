@@ -238,3 +238,22 @@ body {
     text-align: center;
   }
 }
+/* ===== FORCE ONE COLUMN (Laptop + Mobile) ===== */
+
+.profile-card,
+.skills,
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+.profile-card {
+  display: block !important;
+}
+
+@media (min-width: 992px) {
+  .profile-card {
+    display: block !important;
+    text-align: center !important;
+  }
+}
