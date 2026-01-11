@@ -345,3 +345,19 @@ header p {
   max-width: 700px;
   margin: 0 auto;
 }
+/* ===== FORCE CENTER TOP SECTION ===== */
+
+.top-section {
+  width: 100%;
+  text-align: center;
+}
+
+.top-section p {
+  max-width: 700px;
+  margin: 10px auto;
+}
+
+.top-section img {
+  display: block;
+  margin: 15px auto;
+}
