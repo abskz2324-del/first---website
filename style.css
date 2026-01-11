@@ -215,3 +215,26 @@ body {
     width: 100%;
   }
 }
+/* ===== ONE COLUMN LAYOUT (Mobile + Laptop) ===== */
+
+.main-container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.profile-card,
+.about,
+.skills,
+.contact {
+  width: 100%;
+  text-align: center;
+}
+
+/* Laptop bhi same rahe */
+@media (min-width: 992px) {
+  .profile-card {
+    display: block;   /* flex band */
+    text-align: center;
+  }
+}
