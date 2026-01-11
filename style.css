@@ -257,3 +257,26 @@ body {
     text-align: center !important;
   }
 }
+/* ===== CENTER EVERYTHING ===== */
+
+.main-container,
+.profile-card,
+.skills,
+.contact {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills ul {
+  list-style-position: inside;
+  padding: 0;
+}
+.profile-card img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;   /* GOL */
+  display: block;
+  margin: 30px auto;
+}
