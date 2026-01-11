@@ -236,3 +236,34 @@ body {
     width: 50%;
   }
 }
+/* Default (Mobile) */
+.profile-card {
+  display: block;
+  text-align: center;
+}
+
+.profile-card img {
+  width: 220px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Laptop / Desktop */
+@media screen and (min-width: 992px) {
+  .profile-card {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 40%;
+    text-align: center;
+  }
+}
