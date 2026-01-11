@@ -325,3 +325,14 @@ body {
 ul, li, form, input, textarea {
   text-align: center;
 }
+/* ===== FIX TOP CONTENT CENTER ===== */
+
+header,
+header * {
+  text-align: center !important;
+}
+
+header p {
+  max-width: 700px;
+  margin: 0 auto;
+}
